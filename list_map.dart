@@ -12,10 +12,10 @@ main() {
   print("the reversed roll no are: ${rollNo.reversed}");
 }
 // Map 
-Map<String ,dynamic> person ={
+/*Map<String ,dynamic> person ={
   "profilePicture" : "link of that pp",
   "age" : 10,
   /* while using map there must be a key and a value 
   for eg here age is key & 10 is a value */
 
-}
+}*/
