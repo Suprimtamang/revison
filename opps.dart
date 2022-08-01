@@ -4,9 +4,13 @@
 
 class Mobile {
   // member properties
-  String display, camera, processor;
-  Mobile(
-      {required this.display, required this.camera, required this.processor});
+  String display, camera, processor, _passcode;
+  Mobile({
+    required this.display,
+    required this.camera,
+    required this.processor,
+    required int passcode,
+  });
 
   details() {
     print("${this.display}+${this.camera}+${this.processor}");
@@ -27,3 +31,4 @@ main() {
   samsung.details();
   oneplus.details();
 }
+//
